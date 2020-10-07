@@ -1,8 +1,24 @@
 # COVID-19_Hospital-Capacity
 My Data Analysis practice on Hospital Capacity at San Fransisco Hospital during the COVID-19 pandemy.
 
-* The organizing of the table use SQL
+* The organizing of the table use SQL:
+- "CreateTable_HospitalCap" for main table
+- "HospitalAvailibility" for available room table
+- "HospitalCapacity" for room capacity table
+- "HospitalCovid" for COVID case in San Fransisco hospital
+- "CovidRoomDistribution" prepared table from original file
+
 * The visualization use R
+- "CovidActivity_SanFransisco" to generate graph from "HospitalCovid.sql"
+- "CovidRoom_SanFransisco" to generate graph from "CovidRoomDistribution.sql"
+
+General View of the Original Table
+date | bedtype | status | count
+-----|---------|--------|------
+yyyy-mm-dd | Intensive Care | Available | xxxx
+yyyy-mm-dd | Acute Care | Other Patients | xxxx
+yyyy-mm-dd | Intensive Care Surge | COVID-19 (Confirmed & Suspected) | xx
+yyyy-mm-dd | Acute Care Surge | COVID-19 (Confirmed & Suspected) | x
 
 According to the sources:
 *Acute care beds treat patients with illnesses and injuries including recovery from surgeries. Intensive care (ICU) beds are for sicker patients in need of critical and life support services that can include the use of a ventilator. Surge beds are the additional beds that can be made available to handle an influx of COVID-19 patients; surge beds are differentiated between acute care surge beds and ICU surge beds.*
