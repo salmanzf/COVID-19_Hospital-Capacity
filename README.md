@@ -2,11 +2,11 @@
 My Data Analysis practice on Hospital Capacity at San Fransisco Hospital during the COVID-19 pandemy.
 
 * The organizing of the table use SQL:
--- "CreateTable_HospitalCap" for main table
--- "HospitalAvailibility" for available room table
--- "HospitalCapacity" for room capacity table
--- "HospitalCovid" for COVID case in San Fransisco hospital
--- "CovidRoomDistribution" prepared table from original file
+  - "CreateTable_HospitalCap" for main table
+  - "HospitalAvailibility" for available room table
+  - "HospitalCapacity" for room capacity table
+  - "HospitalCovid" for COVID case in San Fransisco hospital
+  - "CovidRoomDistribution" prepared table from original file
 
 * The visualization use R
 -- "CovidActivity_SanFransisco" to generate graph from "HospitalCovid.sql"
