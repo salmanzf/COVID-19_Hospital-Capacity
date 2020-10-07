@@ -9,8 +9,8 @@ My Data Analysis practice on Hospital Capacity at San Fransisco Hospital during 
   - "CovidRoomDistribution" prepared table from original file
 
 * The visualization use R
--- "CovidActivity_SanFransisco" to generate graph from "HospitalCovid.sql"
--- "CovidRoom_SanFransisco" to generate graph from "CovidRoomDistribution.sql"
+  - "CovidActivity_SanFransisco" to generate graph from "HospitalCovid.sql"
+  - "CovidRoom_SanFransisco" to generate graph from "CovidRoomDistribution.sql"
 
 General View of the Original Table
 date | bedtype | status | count
